@@ -1,0 +1,9 @@
+Crude version:
+
+HTML structuring
+CSS
+JSX
+
+Advanced version:
+
+Admin panel + database
