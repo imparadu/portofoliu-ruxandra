@@ -1,6 +1,7 @@
 export default function Contact() {
   return (
     <div>
+      <div>
         <h2>Get in touch:</h2>
       <form>
         <label htmlFor="name">Name:</label>
@@ -28,6 +29,13 @@ export default function Contact() {
       </form>
       <p>or send email @</p>
       <p>chocolatechiphelmet@gmail.com</p>
+      </div>
+      <div>
+      <img
+        src="https://placehold.co/600x400"
+        alt=""
+      />
+      </div>
     </div>
   );
 }

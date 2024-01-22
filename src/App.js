@@ -1,18 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Nav from './components/Nav';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import Home from './components/Home';
+import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Sketchbook from './components/Sketchbook';
 
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Nav />
-      <Portfolio />
-      <Contact />
+    <div className='App'>
+    <Router>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/sketchbook" element={<Sketchbook />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
     </div>
   );
 }
