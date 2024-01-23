@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div>
       <Link to="/">
-        <h1>Ruxandra Serbanoiu</h1>
+        <h1 className='logo'>Ruxandra Serbanoiu</h1>
       </Link>
       <nav>
         <ul>
