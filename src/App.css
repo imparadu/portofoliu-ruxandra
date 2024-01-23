@@ -24,21 +24,52 @@ li {
   align-items: center;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .galeriePoze {
-  display: flex;
-  flex-wrap: wrap; 
-  flex-direction: column;
-  /* justify-content: center;  */
-  /* align-items: flex-start;  */
-  max-width: 600px;
-  gap: 20px; 
+  column-count: 4;
+  column-gap: 10px;
+  padding: 0 50px;
+  max-width: 100%;
 
 }
 
-.galeriePoze img {
-  max-width: 100%; 
-  /* height: auto;  */
-  /* max-width: 600px;  */
-  flex: 0 0 100px; /* Set the fixed width for the items */
-  margin: 5px; /* Add margin between the items */
+.image {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.image img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .galeriePoze {
+    column-count: 1;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .galeriePoze {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .galeriePoze {
+    column-count: 3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .galeriePoze {
+    column-count: 4;
+  }
 }
