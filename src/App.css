@@ -1,7 +1,44 @@
+@import 'normalize.css';
+
 .App {
   text-align: center;
 }
 
-.logo {
-  
+h1 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  list-style: none; 
+  display: inline-flex;
+}
+
+li {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  align-items: center;
+}
+
+.galeriePoze {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: column;
+  /* justify-content: center;  */
+  /* align-items: flex-start;  */
+  max-width: 600px;
+  gap: 20px; 
+
+}
+
+.galeriePoze img {
+  max-width: 100%; 
+  /* height: auto;  */
+  /* max-width: 600px;  */
+  flex: 0 0 100px; /* Set the fixed width for the items */
+  margin: 5px; /* Add margin between the items */
 }
