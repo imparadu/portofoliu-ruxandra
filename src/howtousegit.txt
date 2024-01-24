@@ -1,5 +1,5 @@
 1. "git pull" de pe main ca sa trag ultimile modificari
-2. git checkout -b "radu"
+2. git checkout -b "radu" - creeaza branch (daca nu exista), poate avea un singur cuvant
 3. git add .
 4. git commit -m "mesaj"
 5. git push
