@@ -1,9 +1,10 @@
-Crude version:
+1. pagina de sketchbook
+2. loading skeletons
+3. buton de inapoi sus
+4. logo pleaca cu liftu in sus + navbar static/fix
+5. celelalte fonturi?
+6. css pagina de contact
+7. functionalitate pagina de contact
 
-HTML structuring
-CSS
-JSX
-
-Advanced version:
-
-Admin panel + database
+99. shop
+100. admin panel
