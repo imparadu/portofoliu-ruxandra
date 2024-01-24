@@ -5,9 +5,11 @@ import './layout.css';
 const Navigation = () => {
   return (
     <div>
+      <div className='logoContainer'>
       <Link to="/">
         <h1 className='logo'>Ruxandra Serbanoiu</h1>
       </Link>
+      </div>
       <nav className='navigation'>
         <ul>
           <li>
