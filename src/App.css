@@ -1,4 +1,10 @@
 @import 'normalize.css';
+@font-face {
+  font-family: 'WildySans';
+  src: local('Wildy Sans'), url('/public/wildy_sans/Wildy-Sans.ttf'), format('ttf'); 
+  font-weight: normal;
+  font-style: normal;
+}
 
 .App {
   text-align: center;
@@ -6,6 +12,10 @@
 
 h1 {
   margin-bottom: 0;
+  font-family: 'WildySans';
+  font-size: 6rem;
+  margin-top: 0;
+  color: black;
 }
 
 a {
@@ -27,6 +37,12 @@ li {
 img {
   max-width: 100%;
   display: block;
+}
+
+.navigation a {
+  font-family: 'WildySans';
+  font-size: 2rem;
+  color: black;
 }
 
 .galeriePoze {
