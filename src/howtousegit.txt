@@ -1,0 +1,20 @@
+1. "git pull" de pe main ca sa trag ultimile modificari
+2. git checkout -b "radu"
+3. git add .
+4. git commit -m "mesaj"
+5. git push
+6. ma duc in github si deschis un pull request (PR)
+
+verificare inainte de merge:
+1 git checkout main
+2 git pull
+3 git checkout - (ma intorc pe branchul meu)
+4 git merge main
+5 git push 
+
+--- Daca vreau pe un branch local al altcuiva
+1. git fetch
+2 git checkout numele
+3 git pull
+
+comment comment comment commentcomment commentcomment comment
