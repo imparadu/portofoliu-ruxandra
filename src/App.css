@@ -41,6 +41,12 @@ img {
   display: block;
 }
 
+.galleryContainer {
+  display: 'flex';
+  align-content: 'center';
+  flex-direction: 'column'
+}
+
 .logoContainer {
   display: flex;
   justify-content: center;
