@@ -6,6 +6,7 @@
 5. celelalte fonturi?
 6. css pagina de contact
 7. functionalitate pagina de contact
+8. css viewport mobile
 
 98. ordine in component dir cu dir pentru fiecare componenta si css adiacent
 99. shop
