@@ -1,5 +1,6 @@
 import { Skeleton } from '@mui/material';
 import React, { useState } from 'react';
+import BackToTopButton from './BackToTopButton';
 
 export default function Portfolio() {
   const images = [
@@ -48,7 +49,7 @@ export default function Portfolio() {
           />
         ))}
       </div>
-      <button>sus</button>
+      <BackToTopButton />
     </div>
   );
 }
@@ -57,7 +58,6 @@ function Image(props) {
   const { src } = props;
   const [isLoading, setIsLoading] = useState(true);
   const handleOnLoad = () => {
-    console.log('yey');
     setIsLoading(false);
   };
   return (

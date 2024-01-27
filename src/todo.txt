@@ -7,5 +7,9 @@
 6. css pagina de contact
 7. functionalitate pagina de contact
 
+98. ordine in component dir cu dir pentru fiecare componenta si css adiacent
 99. shop
 100. admin panel
+
+
+28.01 - react tutorial 
