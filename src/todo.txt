@@ -1,5 +1,6 @@
 1. pagina de sketchbook
 2. loading skeletons
+2.1 pagination cu loadmore
 3. buton de inapoi sus
 4. logo pleaca cu liftu in sus + navbar static/fix
 5. celelalte fonturi?
