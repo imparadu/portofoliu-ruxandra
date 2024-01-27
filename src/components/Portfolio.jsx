@@ -1,3 +1,6 @@
+import { Skeleton } from '@mui/material';
+import React, { useState } from 'react';
+
 export default function Portfolio() {
   const images = [
     '/portfolio/A bucket full of tears.jpg',
@@ -32,25 +35,46 @@ export default function Portfolio() {
     '/portfolio/store.jpg',
     '/portfolio/tea.jpg',
     '/portfolio/train.jpg',
-    '/portfolio/window.jpg'
+    '/portfolio/window.jpg',
   ];
 
   return (
-    <div style={{display: 'flex', alignContent: 'center', flexDirection: 'column'}}>
+    <div className="galleryContainer">
       <div className="galeriePoze">
         {images.map((image, index) => (
-          <div
-            className="image"
+          <Image
+            src={image}
             key={index}
-          >
-            <img
-              src={image}
-              alt=""
-            />
-          </div>
+          />
         ))}
       </div>
       <button>sus</button>
+    </div>
+  );
+}
+
+function Image(props) {
+  const { src } = props;
+  const [isLoading, setIsLoading] = useState(true);
+  const handleOnLoad = () => {
+    console.log('yey');
+    setIsLoading(false);
+  };
+  return (
+    <div className="image">
+      {isLoading && (
+        <Skeleton
+          variant="rectangular"
+          width={200} // Set the desired width of your skeleton
+          height={150} // Set the desired height of your skeleton
+        />
+      )}
+      <img
+        className="testing"
+        src={src}
+        alt=""
+        onLoad={handleOnLoad}
+      />
     </div>
   );
 }
