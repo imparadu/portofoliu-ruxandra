@@ -1,13 +1,13 @@
 @import 'normalize.css';
 @font-face {
   font-family: 'WildySans';
-  src: local('Wildy Sans'), url('/public/wildy_sans/Wildy-Sans.ttf'), format('ttf'); 
+  src: local('Wildy Sans'), url('/public/wildy_sans/Wildy-Sans.ttf'),
+    format('ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 .App {
-  text-align: center;
   width: 100%;
 }
 
@@ -17,7 +17,6 @@ h1 {
   font-size: 6rem;
   margin-top: 0;
   color: black;
-  
 }
 
 a {
@@ -26,7 +25,7 @@ a {
 
 ul {
   padding: 0;
-  list-style: none; 
+  list-style: none;
   display: inline-flex;
 }
 
@@ -44,7 +43,7 @@ img {
 .galleryContainer {
   display: 'flex';
   align-content: 'center';
-  flex-direction: 'column'
+  flex-direction: 'column';
 }
 
 .logoContainer {
@@ -58,11 +57,18 @@ img {
   width: 100%;
 }
 
-.navigation{
+.test {
+  height: 100%;
+}
+
+.navigation {
+  text-align: center;
   position: sticky;
   top: 0;
   width: 100%;
   z-index: 1000;
+  height: 100%;
+  background-color: white;
 }
 
 .navigation a {
@@ -115,12 +121,11 @@ img {
   }
 }
 
-.containerButton{
-  width: fit-content;
-  position: sticky;
+.containerButton {
+  position: fixed;
   bottom: 20px;
-  left: 85%;
   opacity: 60%;
+  right: 0;
 }
 
 .backToTopButton {
@@ -130,4 +135,5 @@ img {
   font-weight: 700;
   border: none;
   cursor: pointer;
+  margin-right: 10px;
 }

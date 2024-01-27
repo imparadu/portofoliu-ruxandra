@@ -1,6 +1,7 @@
 import { Skeleton } from '@mui/material';
 import React, { useState } from 'react';
 import BackToTopButton from './BackToTopButton';
+import Navigation from './Navigation';
 
 export default function Portfolio() {
   const images = [
@@ -40,16 +41,19 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="galleryContainer">
-      <div className="galeriePoze">
-        {images.map((image, index) => (
-          <Image
-            src={image}
-            key={index}
-          />
-        ))}
+    <div>
+      <Navigation />
+      <div className="galleryContainer">
+        <div className="galeriePoze">
+          {images.map((image, index) => (
+            <Image
+              src={image}
+              key={index}
+            />
+          ))}
+        </div>
+        <BackToTopButton />
       </div>
-      <BackToTopButton />
     </div>
   );
 }
