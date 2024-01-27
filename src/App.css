@@ -52,6 +52,19 @@ img {
   justify-content: center;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navigation{
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .navigation a {
   font-family: 'WildySans';
   font-size: 2rem;
@@ -100,4 +113,21 @@ img {
   .galeriePoze {
     column-count: 4;
   }
+}
+
+.containerButton{
+  width: fit-content;
+  position: sticky;
+  bottom: 20px;
+  left: 85%;
+  opacity: 60%;
+}
+
+.backToTopButton {
+  color: green;
+  background-color: white;
+  font-family: 'WildySans';
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
