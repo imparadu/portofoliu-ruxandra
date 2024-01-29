@@ -1,0 +1,2 @@
+1. componenta de contact
+2. research shopify vs contentful. vlad zice shopify cu nextjs

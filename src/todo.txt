@@ -1,7 +1,7 @@
-1. pagina de sketchbook
-2. loading skeletons
+1. pagina de sketchbook ---> trebuie poze de la ruxandra
+2. loading skeletons ---> se lucreaza dupa baza de date 
 2.1 pagination cu loadmore
-3. buton de inapoi sus
+3. buton de inapoi sus ---> trebuie desenu ruxandrei
 4. logo pleaca cu liftu in sus + navbar static/fix ✓
 5. celelalte fonturi?
 6. css pagina de contact

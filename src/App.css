@@ -137,3 +137,55 @@ img {
   cursor: pointer;
   margin-right: 10px;
 }
+
+.containerContact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerPozaContact {
+  width: 600px;
+}
+
+form {
+  border: 1px solid black;
+  padding: 30px;
+  width: 90%;
+  height: 90%;
+}
+
+.inputDiv {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 0;
+}
+
+#name {
+  height: 10%;
+  width: 90%;
+}
+
+#email {
+  height: 10%;
+  width: 90%;
+}
+
+#message {
+  height: 40%;
+  width: 90%;
+}
+
+#submit {
+  height: 40px;
+  width: fit-content;
+  width: 20%;
+}
