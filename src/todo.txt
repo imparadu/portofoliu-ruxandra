@@ -1,15 +1,18 @@
 1. pagina de sketchbook ---> trebuie poze de la ruxandra
-2. loading skeletons ---> se lucreaza dupa baza de date 
-2.1 pagination cu loadmore
+2. shop 
+2.1 loading skeletons ---> se lucreaza dupa baza de date 
 3. buton de inapoi sus ---> trebuie desenu ruxandrei
 4. logo pleaca cu liftu in sus + navbar static/fix ✓
 5. celelalte fonturi?
-6. css pagina de contact
+6. css pagina de contact --> asteptam fonturi ruxandra1
 7. functionalitate pagina de contact
 8. css viewport mobile
+9.pagination cu loadmore
+10. ordine interna css
+11. optimizare css layout final
 
 98. ordine in component dir cu dir pentru fiecare componenta si css adiacent
-99. shop
+99. 
 100. admin panel
 
 
