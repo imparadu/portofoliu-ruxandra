@@ -18,29 +18,6 @@ const Navigation = () => {
     };
   }, []); // Empty dependency array ensures that the effect runs only once during mount and unmount
 
-  console.log(scrollPosition);
-  // const navRef = useRef();
-  // useEffect(() => {
-  //   if (navRef.current) {
-  //     console.log(navRef.current);
-  // function makeSticky() {
-  //   if (window.scrollY >= navRef.current.scrollY) {
-  //     navRef.current.classList.add('sticky');
-  //   } else {
-  //     navRef.current.classList.remove('sticky');
-  //   }
-  // }
-  // makeSticky();
-  //   }
-  //   console.log(window.scrollY);
-  // }, [navRef, window.scrollY, navRef?.current?.scrollY]);
-
-  // window.onscroll = function () {
-  //   makeSticky();
-  // };
-
-  // const navbar = document.getElementsByClassName('navigation');
-  // const sticky = navbar.offsetTop;
 
   return (
     <>
