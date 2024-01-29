@@ -1,3 +1,3 @@
 1. componenta de contact - contactat ruxandra schema pentru fiecare viewport si fonturi si buton de inapoi sus
-
-2. research shopify vs contentful. vlad zice shopify cu nextjs
+2. formulare de contact funtionale
+3. research shopify vs contentful. vlad zice shopify cu nextjs
