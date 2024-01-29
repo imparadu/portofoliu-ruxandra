@@ -5,11 +5,15 @@
 4. logo pleaca cu liftu in sus + navbar static/fix ✓
 5. celelalte fonturi?
 6. css pagina de contact --> asteptam fonturi ruxandra1
+6.1 formular de contact cu emailjs
 7. functionalitate pagina de contact
 8. css viewport mobile
 9.pagination cu loadmore
 10. ordine interna css
 11. optimizare css layout final
+12. optimizat imagini
+
+
 
 98. ordine in component dir cu dir pentru fiecare componenta si css adiacent
 99. 
