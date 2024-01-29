@@ -4,8 +4,8 @@ export default function Contact() {
   return (
     <div>
       <Navigation />
-      <div className="containerContact">
-        <div>
+      <div className="containerComponentaContact">
+        <div id='containerFormulare'>
           <h2>Get in touch:</h2>
           <form>
             <div className='inputDiv'>
