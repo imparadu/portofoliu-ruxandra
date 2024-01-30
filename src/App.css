@@ -7,16 +7,14 @@
   font-style: normal;
 }
 
-.App {
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-h1 {
-  margin-bottom: 0;
-  font-family: 'WildySans';
-  font-size: 6rem;
-  margin-top: 0;
-  color: black;
+.App {
+  width: 100%;
 }
 
 a {
@@ -25,6 +23,7 @@ a {
 
 ul {
   padding: 0;
+  margin: 5px;
   list-style: none;
   display: inline-flex;
 }
@@ -51,6 +50,11 @@ img {
   justify-content: center;
 }
 
+.logoContainer img {
+  height: 8rem;
+  margin-top: 10px;
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -69,11 +73,13 @@ img {
   z-index: 1000;
   height: 100%;
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation a {
-  font-family: 'WildySans';
-  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7rem;
   color: black;
 }
 
@@ -157,10 +163,10 @@ img {
 }
 
 form {
-  border: 1px solid black;
+  border: 1px solid #6FBBCD;
   padding: 30px;
   width: 70%;
-  height: 400px;
+  height: 500px;
 }
 
 .inputDiv {
@@ -173,8 +179,16 @@ form {
 }
 
 input {
-  border: 1px solid black;
+  border: 1px solid #6FBBCD;
   border-radius: 0;
+  padding: 5px;
+  font-size: 1.1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input:focus {
+  background-color: aliceblue;
+  outline: none;
 }
 
 #name {
@@ -190,12 +204,31 @@ input {
 #message {
   height: 40%;
   width: 90%;
+  resize: none;
+  padding: 5px;
+  border: 1px solid #6FBBCD;
+  font-size: 1.1rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#message:focus {
+  outline: none;
+  background-color: aliceblue;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #submit {
   height: 40px;
   width: fit-content;
   width: 20%;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #6FBBCD;
+  color: white;
+}
+
+#submit:hover {
+  cursor: pointer;
+  color: black;
 }
 
 

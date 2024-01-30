@@ -23,7 +23,7 @@ const Navigation = () => {
     <>
       <div className="logoContainer">
         <Link to="/">
-          <h1 className="logo">Ruxandra Serbanoiu</h1>
+          <img src="/sketchbook/Logo.svg" alt="" />
         </Link>
       </div>
       <div className="navigation">
