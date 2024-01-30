@@ -1,3 +1,6 @@
-1. componenta de contact - contactat ruxandra schema pentru fiecare viewport si fonturi si buton de inapoi sus
-2. formulare de contact emailjs
+1. terminat css button
+2. restructurat css pentru fiecare componenta in parte: button, contact, navigation, portfolio
+3. css bem study apply
+4. env file pentru email si urcat in prod versiune finala pentru pagina de contact
+5. optimizat css pentru toate displayruile - 
 3. research shopify vs contentful. vlad zice shopify cu nextjs

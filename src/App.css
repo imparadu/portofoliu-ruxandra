@@ -15,6 +15,7 @@ body {
 
 .App {
   width: 100%;
+  margin: auto;
 }
 
 a {
@@ -37,12 +38,6 @@ li {
 img {
   max-width: 100%;
   display: block;
-}
-
-.galleryContainer {
-  display: 'flex';
-  align-content: 'center';
-  flex-direction: 'column';
 }
 
 .logoContainer {
@@ -83,11 +78,37 @@ img {
   color: black;
 }
 
+.galleryContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .galeriePoze {
   column-count: 4;
   column-gap: 20px;
-  padding: 0 50px;
-  max-width: 100%;
+  max-width: 80%;
+  margin: auto;
+}
+.containerButton {
+  position: sticky;
+  bottom: 10px;
+  /* right: 10px; */
+  /* align-self:self-end; */
+}
+
+#backToTopButton {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.flex-div {
+  justify-content: space-between;
+}
+
+#backToTopButton img {
+  height: 60px;
 }
 
 .image {
@@ -127,23 +148,6 @@ img {
   }
 }
 
-.containerButton {
-  position: fixed;
-  bottom: 20px;
-  opacity: 60%;
-  right: 0;
-}
-
-.backToTopButton {
-  color: green;
-  background-color: white;
-  font-family: 'WildySans';
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  margin-right: 10px;
-}
-
 .containerComponentaContact {
   display: flex;
   justify-content: space-around;
@@ -163,7 +167,7 @@ img {
 }
 
 form {
-  border: 1px solid #6FBBCD;
+  border: 1px solid #6fbbcd;
   padding: 30px;
   width: 70%;
   height: 500px;
@@ -179,7 +183,7 @@ form {
 }
 
 input {
-  border: 1px solid #6FBBCD;
+  border: 1px solid #6fbbcd;
   border-radius: 0;
   padding: 5px;
   font-size: 1.1rem;
@@ -206,7 +210,7 @@ input:focus {
   width: 90%;
   resize: none;
   padding: 5px;
-  border: 1px solid #6FBBCD;
+  border: 1px solid #6fbbcd;
   font-size: 1.1rem;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -222,7 +226,7 @@ input:focus {
   width: fit-content;
   width: 20%;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #6FBBCD;
+  background-color: #6fbbcd;
   color: white;
 }
 
@@ -230,5 +234,3 @@ input:focus {
   cursor: pointer;
   color: black;
 }
-
-
