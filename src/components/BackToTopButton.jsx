@@ -3,8 +3,10 @@ export default function BackToTopButton () {
         window.scrollTo(0,0)
     }
     return (
-        <div className="containerButton">
-            <button className="backToTopButton" onClick={onClick}>Back to Top</button>
-        </div>
-    )
+      // <div className="containerButton flex-div">
+        <button id="backToTopButton" onClick={onClick}>
+          <img alt="backToTopButton" src="/Back_to_top_bk-bl.svg" />
+        </button>
+      // </div>
+    );
 }

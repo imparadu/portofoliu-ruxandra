@@ -66,7 +66,7 @@ function Image(props) {
         />
       )}
       <img
-        className="testing"
+        className="portfolioSketchbookImages"
         src={src}
         alt=""
         onLoad={handleOnLoad}

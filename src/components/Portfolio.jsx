@@ -44,15 +44,14 @@ export default function Portfolio() {
     <div>
       <Navigation />
       <div className="galleryContainer">
-        <div className="galeriePoze">
+        <div className="galeriePoze flex-div">
           {images.map((image, index) => (
-            <Image
-              src={image}
-              key={index}
-            />
+            <Image src={image} key={index} />
           ))}
+        <div className="containerButton">
+          <BackToTopButton />
         </div>
-        <BackToTopButton />
+        </div>
       </div>
     </div>
   );
@@ -74,7 +73,7 @@ function Image(props) {
         />
       )}
       <img
-        className="testing"
+        className="portfolioSketchbookImages"
         src={src}
         alt=""
         onLoad={handleOnLoad}

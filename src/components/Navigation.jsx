@@ -1,29 +1,13 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './layout.css';
 
 const Navigation = () => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollPosition(window.scrollY);
-    };
-
-    // Attach the event listener to the window
-    window.addEventListener('scroll', handleScroll);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []); // Empty dependency array ensures that the effect runs only once during mount and unmount
-
-
   return (
     <>
       <div className="logoContainer">
         <Link to="/">
-          <img src="/sketchbook/Logo.svg" alt="" />
+          <img src="/Logo.svg" alt="" />
         </Link>
       </div>
       <div className="navigation">
