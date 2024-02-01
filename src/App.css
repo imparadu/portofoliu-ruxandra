@@ -9,8 +9,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
+html,
 body {
   font-family: 'Josefin Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .App {
@@ -70,6 +72,7 @@ img {
   background-color: white;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .navigation a {
@@ -90,18 +93,23 @@ img {
   max-width: 80%;
 }
 .containerButton {
-  position: sticky;
+  /* position: sticky;
   bottom: 10px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end; */
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  /* margin-top: calc(80vh + var(--offset)); */
 }
 
 #backToTopButton {
   border: none;
   cursor: pointer;
   background-color: transparent;
-  position: relative;
-  left: 75px;
 }
 
 .flex-div {
@@ -128,6 +136,9 @@ img {
 @media screen and (max-width: 600px) {
   .galeriePoze {
     column-count: 1;
+  }
+  .containerButton {
+    display:none !important;
   }
 }
 
