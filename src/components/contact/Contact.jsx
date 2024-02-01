@@ -14,7 +14,7 @@ export default function Contact() {
         'service_5eo6rnr',
         'template_d0g3j9a',
         form.current,
-        'FgZX1kzCzARKojj9U'
+        process.env.EMAILJS_API_KEY
       )
       .then(
         (result) => {
@@ -34,16 +34,13 @@ export default function Contact() {
         <div id={styles.containerFormulare}>
           <h2>Get in touch:</h2>
           <p>are mult mai mult sens</p>
-          <form
-            ref={form}
-            onSubmit={sendEmail}
-          >
+          <form ref={form} onSubmit={sendEmail}>
             <div className={styles.inputDiv}>
               <label htmlFor="name"></label>
               <input
                 type="text"
                 id={styles.name}
-                name="name"
+                name="from_name"
                 placeholder="Name:"
               />
               <label htmlFor="email"></label>
@@ -60,20 +57,13 @@ export default function Contact() {
                 name="message"
                 placeholder="Message:"
               />
-              <input
-                type="submit"
-                value="Send"
-                id={styles.submit}
-              />
+              <input type="submit" value="Send" id={styles.submit} />
             </div>
           </form>
           <p>Or send email at chocolatechiphelmet@gmail.com</p>
         </div>
         <div className={styles.containerPozaContact}>
-          <img
-            src="/portfolio/field.jpg"
-            alt=""
-          />
+          <img src="/portfolio/field.jpg" alt="" />
         </div>
       </div>
     </div>

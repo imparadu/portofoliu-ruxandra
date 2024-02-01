@@ -6,14 +6,8 @@ export default function BackToTopButton() {
   }
   return (
     <div className={styles.containerButton}>
-      <button
-        id={styles.backToTopButton}
-        onClick={onClick}
-      >
-        <img
-          alt="backToTopButton"
-          src="/Back_to_top_bk-bl.svg"
-        />
+      <button id={styles.backToTopButton} onClick={onClick}>
+        <img alt="backToTopButton" src="/Back_to_top_bk-bl.svg" />
       </button>
     </div>
   );
