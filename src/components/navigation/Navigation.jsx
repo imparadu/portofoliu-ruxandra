@@ -7,10 +7,7 @@ const Navigation = () => {
     <>
       <div className={styles.logoContainer}>
         <Link to="/">
-          <img
-            src="/Logo.svg"
-            alt=""
-          />
+          <img src="/Logo.svg" alt="" />
         </Link>
       </div>
       <div className={styles.navigation}>
