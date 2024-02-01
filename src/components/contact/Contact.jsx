@@ -1,22 +1,30 @@
-import Navigation from '../Navigation';
+import Navigation from '../navigation/Navigation';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import styles from './contact.module.css'
+import styles from './contact.module.css';
 
 export default function Contact() {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5eo6rnr', 'template_d0g3j9a', form.current, 'FgZX1kzCzARKojj9U')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        'service_5eo6rnr',
+        'template_d0g3j9a',
+        form.current,
+        'FgZX1kzCzARKojj9U'
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-      form.current.reset();
+        }
+      );
+    form.current.reset();
   };
 
   return (
@@ -26,7 +34,10 @@ export default function Contact() {
         <div id={styles.containerFormulare}>
           <h2>Get in touch:</h2>
           <p>are mult mai mult sens</p>
-          <form ref={form} onSubmit={sendEmail}>
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+          >
             <div className={styles.inputDiv}>
               <label htmlFor="name"></label>
               <input
@@ -43,7 +54,7 @@ export default function Contact() {
                 placeholder="Email:"
               />
               <label htmlFor=""></label>
-              <textarea 
+              <textarea
                 type="text"
                 id={styles.message}
                 name="message"

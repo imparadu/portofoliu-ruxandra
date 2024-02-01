@@ -1,13 +1,6 @@
 @import 'normalize.css';
-@font-face {
-  font-family: 'WildySans';
-  src: local('Wildy Sans'), url('/public/wildy_sans/Wildy-Sans.ttf'),
-    format('ttf');
-  font-weight: normal;
-  font-style: normal;
-}
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); */
 
 html,
 body {
@@ -42,95 +35,14 @@ img {
   display: block;
 }
 
-.logoContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.logoContainer img {
-  height: 8rem;
-  margin-top: 10px;
-}
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.test {
-  height: 100%;
-}
-
-.navigation {
-  text-align: center;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  height: 100%;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navigation a {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.7rem;
-  color: black;
-}
-
-.galleryContainer {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.galeriePoze {
-  column-count: 4;
-  column-gap: 20px;
-  max-width: 80%;
-}
-.containerButton {
-  /* position: sticky;
-  bottom: 10px;
-  display: flex;
-  justify-content: flex-end; */
-  --offset: 50px; 
-  
-  position: sticky;
-  bottom: 20px;      
-  margin-right:10px; 
-  place-self: end;
-  /* margin-top: calc(80vh + var(--offset)); */
-}
-
-#backToTopButton {
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-}
-
 .flex-div {
   justify-content: space-between;
-}
-
-#backToTopButton img {
-  height: 60px;
-}
-
-.image {
-  margin: 0;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  margin-bottom: 20px;
-  break-inside: avoid;
-}
-
-.image img {
-  grid-row: 1 / -1;
-  grid-column: 1;
 }
 
 @media screen and (max-width: 600px) {
@@ -138,7 +50,7 @@ img {
     column-count: 1;
   }
   .containerButton {
-    display:none !important;
+    display: none !important;
   }
 }
 
@@ -159,5 +71,3 @@ img {
     column-count: 4;
   }
 }
-
-
