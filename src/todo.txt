@@ -12,6 +12,7 @@
 10. ordine interna css
 11. optimizare css layout final
 12. optimizat imagini
+13.
 
 
 
@@ -21,3 +22,5 @@
 
 
 28.01 - react tutorial 
+- react context
+- study prop drilling & compound components

@@ -1,6 +1,7 @@
-import Navigation from './Navigation';
+import Navigation from '../Navigation';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import styles from './contact.module.css'
 
 export default function Contact() {
 
@@ -21,43 +22,43 @@ export default function Contact() {
   return (
     <div>
       <Navigation />
-      <div className="containerComponentaContact">
-        <div id='containerFormulare'>
+      <div className={styles.containerComponentaContact}>
+        <div id={styles.containerFormulare}>
           <h2>Get in touch:</h2>
           <p>are mult mai mult sens</p>
           <form ref={form} onSubmit={sendEmail}>
-            <div className='inputDiv'>
+            <div className={styles.inputDiv}>
               <label htmlFor="name"></label>
               <input
                 type="text"
-                id="name"
+                id={styles.name}
                 name="name"
                 placeholder="Name:"
               />
               <label htmlFor="email"></label>
               <input
                 type="email"
-                id="email"
+                id={styles.email}
                 name="email"
                 placeholder="Email:"
               />
               <label htmlFor=""></label>
               <textarea 
                 type="text"
-                id="message"
+                id={styles.message}
                 name="message"
                 placeholder="Message:"
               />
               <input
                 type="submit"
                 value="Send"
-                id="submit"
+                id={styles.submit}
               />
             </div>
           </form>
           <p>Or send email at chocolatechiphelmet@gmail.com</p>
         </div>
-        <div className="containerPozaContact">
+        <div className={styles.containerPozaContact}>
           <img
             src="/portfolio/field.jpg"
             alt=""
