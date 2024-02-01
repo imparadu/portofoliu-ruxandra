@@ -1,7 +1,8 @@
 import { Skeleton } from '@mui/material';
 import React, { useState } from 'react';
-import BackToTopButton from './BackToTopButton';
-import Navigation from './Navigation';
+import BackToTopButton from '../backtotopbutton/BackToTopButton';
+import Navigation from '../navigation/Navigation';
+import styles from './portfolio.module.css';
 
 export default function Portfolio() {
   const images = [
@@ -43,15 +44,16 @@ export default function Portfolio() {
   return (
     <div>
       <Navigation />
-      <div className="galleryContainer">
-        <div className="galeriePoze">
+      <div className={styles.galleryContainer}>
+        <div className={styles.galeriePoze}>
           {images.map((image, index) => (
-            <Image src={image} key={index} />
+            <Image
+              src={image}
+              key={index}
+            />
           ))}
         </div>
-        <div className="containerButton">
-          <BackToTopButton />
-        </div>
+        <BackToTopButton />
       </div>
     </div>
   );
@@ -64,7 +66,7 @@ function Image(props) {
     setIsLoading(false);
   };
   return (
-    <div className="image">
+    <div className={styles.image}>
       {isLoading && (
         <Skeleton
           variant="rectangular"
@@ -73,7 +75,6 @@ function Image(props) {
         />
       )}
       <img
-        className="portfolioSketchbookImages"
         src={src}
         alt=""
         onLoad={handleOnLoad}

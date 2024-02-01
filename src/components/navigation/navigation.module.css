@@ -1,0 +1,28 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer img {
+  height: 8rem;
+  margin-top: 10px;
+}
+
+.navigation {
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 100%;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.7rem;
+  color: black;
+}

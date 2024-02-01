@@ -1,16 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './layout.css';
+import styles from './navigation.module.css';
 
 const Navigation = () => {
   return (
     <>
-      <div className="logoContainer">
+      <div className={styles.logoContainer}>
         <Link to="/">
-          <img src="/Logo.svg" alt="" />
+          <img
+            src="/Logo.svg"
+            alt=""
+          />
         </Link>
       </div>
-      <div className="navigation">
+      <div className={styles.navigation}>
         <ul>
           <li>
             <Link to="/portfolio">Portfolio</Link>
