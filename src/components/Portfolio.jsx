@@ -44,13 +44,13 @@ export default function Portfolio() {
     <div>
       <Navigation />
       <div className="galleryContainer">
-        <div className="galeriePoze flex-div">
+        <div className="galeriePoze">
           {images.map((image, index) => (
             <Image src={image} key={index} />
           ))}
+        </div>
         <div className="containerButton">
           <BackToTopButton />
-        </div>
         </div>
       </div>
     </div>
