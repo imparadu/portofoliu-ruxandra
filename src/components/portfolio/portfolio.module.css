@@ -15,7 +15,7 @@
 .galeriePoze {
   column-count: 4;
   column-gap: 20px;
-  max-width: 80%;
+  max-width: 90%;
 }
 
 .image {
@@ -34,9 +34,6 @@
 @media screen and (max-width: 600px) {
   .galeriePoze {
     column-count: 1;
-  }
-  .containerButton {
-    display: none !important;
   }
 }
 
