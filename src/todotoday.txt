@@ -1,4 +1,4 @@
 1. optimizat css pentru toate displayruile
-2. schimbat toate pozele cu cele noi de la ruxandra
-3. nu merge env pe vercel
+2. schimbat toate pozele cu cele noi de la ruxandra - last touches
+3. nu merge env pe vercel - gasit alta solutie in afara de emailjs
 4. Contact -> schimbata poza(alege ruxandra) + fara scroll

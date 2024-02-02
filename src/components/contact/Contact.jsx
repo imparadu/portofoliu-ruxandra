@@ -32,8 +32,8 @@ export default function Contact() {
       <Navigation />
       <div className={styles.containerComponentaContact}>
         <div id={styles.containerFormulare}>
-          <h2>Get in touch:</h2>
-          <p>are mult mai mult sens</p>
+          <h3>Get in touch:</h3>
+          {/* <p>are mult mai mult sens</p>  */}
           <form ref={form} onSubmit={sendEmail}>
             <div className={styles.inputDiv}>
               <label htmlFor="name"></label>

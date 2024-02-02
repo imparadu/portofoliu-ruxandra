@@ -11,26 +11,7 @@ body {
   margin: auto;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
-  padding: 0;
-  margin: 5px;
-  list-style: none;
-  display: inline-flex;
-}
-
-li {
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  align-items: center;
-}
-
 img {
   max-width: 100%;
   display: block;
 }
-
-
