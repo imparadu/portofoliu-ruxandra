@@ -1,9 +1,5 @@
 .containerButton {
-  /* position: sticky;
-    bottom: 10px;
-    display: flex;
-    justify-content: flex-end; */
-  --offset: 50px;
+  /* --offset: 50px; */
 
   position: sticky;
   bottom: 20px;
@@ -21,3 +17,4 @@
 #backToTopButton img {
   height: 60px;
 }
+

@@ -1,7 +1,5 @@
 @import 'normalize.css';
 
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); */
-
 html,
 body {
   font-family: 'Josefin Sans', sans-serif;
@@ -9,7 +7,6 @@ body {
 }
 
 .App {
-  font-family: 'Josefin Sans', sans-serif;
   width: 100%;
   margin: auto;
 }
@@ -36,39 +33,4 @@ img {
   display: block;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 
-.flex-div {
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 600px) {
-  .galeriePoze {
-    column-count: 1;
-  }
-  .containerButton {
-    display: none !important;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .galeriePoze {
-    column-count: 2;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .galeriePoze {
-    column-count: 3;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .galeriePoze {
-    column-count: 4;
-  }
-}

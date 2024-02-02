@@ -70,8 +70,8 @@ function Image(props) {
       {isLoading && (
         <Skeleton
           variant="rectangular"
-          width={200} // Set the desired width of your skeleton
-          height={150} // Set the desired height of your skeleton
+          width={200}
+          height={150}
         />
       )}
       <img
