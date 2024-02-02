@@ -6,8 +6,9 @@ const Navigation = () => {
   return (
     <>
       <div className={styles.logoContainer}>
-        <Link to="/">
-          <img src="/Logo.svg" alt="" />
+        <Link to="/" >
+          <div className={styles.logoDesktop}></div>
+          <div className={styles.logoMobil}></div>
         </Link>
       </div>
       <div className={styles.navigation}>
