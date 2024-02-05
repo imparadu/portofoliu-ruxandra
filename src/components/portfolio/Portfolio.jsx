@@ -7,7 +7,6 @@ import styles from './portfolio.module.css';
 export default function Portfolio() {
   const images = [
     '/portfolio/A-bucket-full-of-tears.jpg',
-    '/portfolio/adv.jpg',
     '/portfolio/big-tony.jpg',
     '/portfolio/bus.jpg',
     '/portfolio/caat.jpg',
@@ -22,14 +21,11 @@ export default function Portfolio() {
     '/portfolio/dm.jpg',
     '/portfolio/evelator.jpg',
     '/portfolio/field.jpg',
-    '/portfolio/Galle-Fort---Dutch-Reformed-Church.jpg',
     '/portfolio/garden2.jpg',
     '/portfolio/granny.jpg',
     '/portfolio/housecat1.jpg',
-    '/portfolio/img202.jpg',
     '/portfolio/img353.jpg',
     '/portfolio/jazz.jpg',
-    '/portfolio/leave.jpg',
     '/portfolio/letter.jpg',
     '/portfolio/lunatic.jpg',
     '/portfolio/Milk.jpg',
@@ -64,6 +60,13 @@ export default function Portfolio() {
     '/portfolio/vintagestore.jpg',
     '/portfolio/VW-farul.jpg',
     '/portfolio/window.jpg',
+    '/portfolio/Nahla-and-the-3d-Machine-illustrations_1810-06.jpg',
+    '/portfolio/Nahla-and-the-3d-Machine-illustrations_1810-07.jpg',
+    '/portfolio/Nahla-and-the-3d-Machine-illustrations_1810-27.jpg',
+    '/portfolio/NY-eve.jpg',
+    '/portfolio/old.jpg',
+    '/portfolio/Pigeon-colour-only.jpg',
+    '/portfolio/mug.png',
   ];
 
   return (

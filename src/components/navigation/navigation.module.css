@@ -50,13 +50,15 @@ li {
 
 .navigation a {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.7rem;
+  /* font-size: 1.7rem; */
+  font-size: 3vmin;
   color: black;
 }
 
 @media screen and (max-width: 281px) {
   .navigation a {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
+    font-size: 5vmin;
     font-weight: 500;
   }
   li {
@@ -75,7 +77,8 @@ li {
 
 @media screen and (min-width: 282px) and (max-width: 600px) {
   .navigation a {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 4.5vmin;
     font-weight: 500;
   }
   .logoDesktop {
